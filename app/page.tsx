@@ -392,7 +392,7 @@ export default function DNAAnalyzer() {
                   <label htmlFor="file-upload" className="cursor-pointer">
                     <FileText className="h-12 w-12 text-muted-foreground mx-auto mb-4" />
                     <p className="text-lg font-medium mb-2">{file ? file.name : "Choose a file or drag and drop"}</p>
-                    <p className="text-sm text-muted-foreground">Maximum file size: 10GB</p>
+                    <p className="text-sm text-muted-foreground">Maximum file size: 50MB</p>
                   </label>
                 </div>
 
